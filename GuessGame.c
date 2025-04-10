@@ -44,5 +44,6 @@ int main(int argc, char const *argv[])
         tentativas++;
     }
     printf("Fim de jogo!\n");
+    printf("Voce acertou em %d tentativas! \n", tentativas-1);
     return 0;
 }
